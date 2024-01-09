@@ -158,7 +158,7 @@ int main()
                 SetConsoleTextAttribute(hConsole, 15);
                 printf("Created");
                 SetConsoleTextAttribute(hConsole, 12);
-                printf(" by Ecro\n\n");
+                printf(" by KWAZAR374\n\n");
                 SetConsoleTextAttribute(hConsole, 10);
                 printf(">>CLICK \"P\" TO PLAY\n");
                 SetConsoleTextAttribute(hConsole, 15);
@@ -1912,7 +1912,7 @@ void extend_snake(snake *snake_head, int *length_of_snake) {
     if(length_of_snake != NULL) (*length_of_snake)++;
     snake *new_node = (snake *)malloc(sizeof(snake));
     new_node->direction = '0';
-    new_node->next = NULL; //Ecro
+    new_node->next = NULL; //Kwazar374
     new_node->x_coordinate = 0;
     new_node->y_coordinate = 0;
     snake *temporary = snake_head;
